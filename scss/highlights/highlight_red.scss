@@ -1,0 +1,23 @@
+/* Generating Color Pack*/
+
+$colorHighlightLight: #ED5565;
+$colorHighlightDark: #DA4453;
+
+.color-highlight{color:$colorHighlightDark!important;}
+.bg-highlight{background-color:$colorHighlightDark!important; color:#FFF!important;}
+.border-highlight{border-color:$colorHighlightDark!important;}
+.gradient-highlight{background-image:linear-gradient(to bottom, $colorHighlightLight, $colorHighlightDark)!important;}
+
+//.form-control:focus,
+//.form-select:focus{border-color:$colorHighlightDark!important;}
+.footer-bar-5 .active-nav::after,
+.footer-bar-4 .active-nav::after,
+.footer-bar-2 .active-nav::after,
+.footer-bar-1 .active-nav::after{background-color:$colorHighlightDark}
+.footer-bar-3 .active-nav i, .footer-bar-3 .active-nav span{color:$colorHighlightDark}
+.splide__pagination__page.is-active{background-color:$colorHighlightDark!important} 
+.form-floating-over > .form-control:focus ~ label{color:$colorHighlightDark;}
+.form-floating-over > .form-control:not(:placeholder-shown) ~ label{color:$colorHighlightDark;}
+.form-floating-over > .form-select ~ label{color:$colorHighlightDark;}
+.color-highlight{color:$colorHighlightDark;}
+.bg-highlight{background-color:$colorHighlightDark; color:#FFF!important;}

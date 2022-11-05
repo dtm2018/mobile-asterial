@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Asterial Mobile</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+    
+<body class="theme-light">
+    
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+    <div class="header header-fixed header-logo-app header-auto-show">
+        <a href="index.html" class="header-title">Back to pages</a>
+        <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-arrow-left"></i></a>
+        <a href="#" data-menu="menu-main" class="header-icon header-icon-2"><i class="fas fa-bars"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-dark"><i class="fas fa-lightbulb color-yellow-dark"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-light"><i class="fas fa-moon"></i></a>
+    </div>
+
+    <div id="footer-bar" class="footer-bar-4">
+        <a href="index-pages.html" class="active-nav"><i class="fa fa-file"></i><span>Pages</span></a>
+        <a href="index-components.html"><i class="fa fa-layer-group"></i><span>Features</span></a>
+        <a href="index.html"><i class="fa fa-home"></i><span>Welcome</span></a>
+        <a href="index-projects.html"><i class="fa fa-camera"></i><span>Projects</span></a>
+        <a href="#" data-menu="menu-main"><i class="fa fa-bars"></i><span>Menu</span></a>
+    </div>
+    
+    <div class="page-content">
+        
+        <div class="page-subtitle">
+            <a href="#" class="page-subtitle-icon" data-back-button><i class="fa fa-arrow-left color-theme"></i></a>
+            <h1 class="font-21">Profile Admin</h1>
+            <a href="#" class="page-subtitle-icon show-on-theme-light" data-toggle-theme><i class="fa fa-moon color-theme"></i></a>
+            <a href="#" class="page-subtitle-icon show-on-theme-dark" data-toggle-theme><i class="fa fa-lightbulb color-yellow-dark"></i></a>
+            <a href="#" class="page-subtitle-icon" data-menu="menu-main"><i class="fa fa-bars color-theme"></i></a>
+        </div>
+        
+        
+        <div class="card bg-8" data-card-height="250">
+            <div class="card-top">
+                <a href="#" class="btn btn-s border-white color-white float-end mt-4 me-2 rounded-sm"><i class="fa fa-pen pe-2"></i>Edit </a>
+            </div>
+            <div class="card-bottom">
+                <p class="color-white p-3 font-14 mb-0">
+                    Enabled is the top mobile author on the Envato marketplaces with over 11 years experience!
+                </p>
+            </div>
+            <div class="card-top mt-3 no-click ms-3 me-3">
+                <h1 class="font-32 line-height-xl color-white mb-n1">Enabled Labs</h1>
+                <p class="color-white opacity-60 mb-3 pb-2"><i class="fa fa-map-marker me-2"></i>Front End Developer & Author</p>
+            </div>
+            <div class="card-overlay bg-black opacity-70"></div>
+            <div class="card-overlay bg-gradient opacity-80"></div>
+        </div>
+
+            <div class="content">      
+                                                
+                <div class="input-style no-borders input-style-always-active no-icon validate-field mb-4">
+                    <input type="name" class="form-control validate-name" id="form1" placeholder="Enabled">
+                    <label for="form1" class="color-highlight font-11 font-500">First Name</label>
+                    <i class="fa fa-times disabled invalid color-red-dark"></i>
+                    <i class="fa fa-check disabled valid color-green-dark"></i>
+                    <em>(required)</em>
+                </div>
+
+                <div class="input-style no-borders input-style-always-active no-icon validate-field mb-4">
+                    <input type="name" class="form-control validate-name" id="form1" placeholder="Author">
+                    <label for="form1" class="color-highlight font-11 font-500">Last Name</label>
+                    <i class="fa fa-times disabled invalid color-red-dark"></i>
+                    <i class="fa fa-check disabled valid color-green-dark"></i>
+                    <em>(required)</em>
+                </div>
+                    
+                <div class="input-style no-borders input-style-always-active no-icon validate-field mb-4">
+                    <input type="name" class="form-control validate-name" id="form1" placeholder="name@domain.com">
+                    <label for="form1" class="color-highlight font-11 font-500">Email</label>
+                    <i class="fa fa-times disabled invalid color-red-dark"></i>
+                    <i class="fa fa-check disabled valid color-green-dark"></i>
+                    <em>(required)</em>
+                </div>
+                    
+                <div class="input-style no-borders input-style-always-active no-icon validate-field mb-4">
+                    <input type="name" class="form-control validate-name" id="form1" placeholder="San Francisco, California">
+                    <label for="form1" class="color-highlight font-11 font-500">Location</label>
+                    <i class="fa fa-times disabled invalid color-red-dark"></i>
+                    <i class="fa fa-check disabled valid color-green-dark"></i>
+                    <em>(required)</em>
+                </div>
+                <div class="input-style no-borders input-style-always-active no-icon validate-field mb-4">
+                    <textarea id="form7" placeholder="Enter your message" class="opacity-70">Enabled is the top mobile author on the Envato marketplaces with over 11 years experience and 32k+ customers served!</textarea>
+                    <label for="form7" class="color-highlight font-11 font-500 mt-1">Profile Description</label>
+                </div>
+
+        
+                <h2 class="mt-4 pt-3">Settings</h2>
+                <p>
+                    Apply settings to your profile based on your requriements and necessities.
+                </p>
+                
+                <div class="d-flex mb-1">
+                    <div class="pt-1">
+                        <h5 data-trigger-switch="toggle-id-1" class="pt-1 font-600 font-14">Private Profile</h5>
+                    </div>
+                    <div class="ms-auto me-3 pe-2">
+                        <div class="custom-control ios-switch scale-switch">
+                            <input type="checkbox" class="ios-input" id="toggle-id-1">
+                            <label class="custom-control-label" for="toggle-id-1"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mb-1">
+                    <div class="pt-1">
+                        <h5 data-trigger-switch="toggle-id-2" class="pt-1 font-600 font-14">Share Location</h5>
+                    </div>
+                    <div class="ms-auto me-3 pe-2">
+                        <div class="custom-control ios-switch scale-switch">
+                            <input type="checkbox" class="ios-input" id="toggle-id-2">
+                            <label class="custom-control-label" for="toggle-id-2"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mb-1">
+                    <div class="pt-1">
+                        <h5 data-trigger-switch="toggle-id-3" class="pt-1 font-600 font-14">Subscribe to  Mails</h5>
+                    </div>
+                    <div class="ms-auto me-3 pe-2">
+                        <div class="custom-control ios-switch scale-switch">
+                            <input type="checkbox" class="ios-input" id="toggle-id-3" checked>
+                            <label class="custom-control-label" for="toggle-id-3"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex mb-1">
+                    <div class="pt-1">
+                        <h5 data-trigger-switch="toggle-id-4" class="pt-1 font-600 font-14">Hide Email Address</h5>
+                    </div>
+                    <div class="ms-auto me-3 pe-2">
+                        <div class="custom-control ios-switch scale-switch">
+                            <input type="checkbox" class="ios-input" id="toggle-id-4" checked>
+                            <label class="custom-control-label" for="toggle-id-4"></label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <a href="#" class="btn btn-full btn-m bg-highlight rounded-s font-800 text-uppercase mt-4">Save Changes</a>
+                
+                <div class="divider mt-4"></div>
+                
+            </div>
+
+
+        <div data-menu-load="menu-footer.html"></div>
+    </div>
+    <!-- Page content ends here-->
+    <div id="menu-main" class="menu menu-box-left rounded-0" data-menu-load="menu-main.html" data-menu-width="280" data-menu-active="nav-pages"></div>
+
+</div>
+
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</body>

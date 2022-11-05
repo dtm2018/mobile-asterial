@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Asterial Mobile</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+    
+<body class="theme-light">
+    
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+    <div class="header header-fixed header-logo-app header-auto-show">
+        <a href="index.html" class="header-title">Back to pages</a>
+        <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-arrow-left"></i></a>
+        <a href="#" data-menu="menu-main" class="header-icon header-icon-2"><i class="fas fa-bars"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-dark"><i class="fas fa-lightbulb color-yellow-dark"></i></a>
+        <a href="#" data-toggle-theme class="header-icon header-icon-3 show-on-theme-light"><i class="fas fa-moon"></i></a>
+    </div>
+
+    <div id="footer-bar" class="footer-bar-4">
+        <a href="index-pages.html"><i class="fa fa-file"></i><span>Pages</span></a>
+        <a href="index-components.html"><i class="fa fa-layer-group"></i><span>Features</span></a>
+        <a href="index.html"><i class="fa fa-home"></i><span>Welcome</span></a>
+        <a href="index-projects.html"><i class="fa fa-camera"></i><span>Projects</span></a>
+        <a href="#" data-menu="menu-main" class="active-nav"><i class="fa fa-bars"></i><span>Menu</span></a>
+    </div>
+    
+    <div class="page-content">
+        
+        <div class="page-subtitle">
+            <a href="#" class="page-subtitle-icon" data-back-button><i class="fa fa-arrow-left color-theme"></i></a>
+            <h1>Settings</h1>
+            <a href="#" class="page-subtitle-icon show-on-theme-light" data-toggle-theme><i class="fa fa-moon color-theme"></i></a>
+            <a href="#" class="page-subtitle-icon show-on-theme-dark" data-toggle-theme><i class="fa fa-lightbulb color-yellow-dark"></i></a>
+            <a href="#" class="page-subtitle-icon" data-menu="menu-main"><i class="fa fa-bars color-theme"></i></a>
+        </div>
+        
+        <div class="divider divider-margins"></div>
+
+        <div class="content">
+            <h5 class="text-uppercase font-12 mb-0">Navigation</h5>
+            <div class="list-group list-custom-large">
+                <a href="#">
+                    <i class="fa font-14 fa-star rounded-xl shadow-s bg-yellow-dark color-white"></i>
+                    <span>Welcome</span>
+                    <strong>The Main Page</strong>
+                    <i class="fa fa-angle-right"></i>
+                </a>     
+                <a href="#">
+                    <i class="fa font-14 fa-heart rounded-xl shadow-s bg-red-dark color-white"></i>
+                    <span>Homepages</span>
+                    <strong>Find your Favorite</strong>
+                    <i class="fa fa-angle-right"></i>
+                </a>        
+                <a href="#">
+                    <i class="fa font-14 fa-cog rounded-xl shadow-s bg-blue-dark color-white"></i>
+                    <span>Components</span>
+                    <strong>Copy & Paste Ready</strong>
+                    <i class="fa fa-angle-right"></i>
+                </a>        
+                <a href="#">
+                    <i class="fa font-14 fa-camera rounded-xl shadow-s bg-green-dark color-white"></i>
+                    <span>Media</span>
+                    <strong>Showcase your Work</strong>
+                    <i class="fa fa-angle-right"></i>
+                </a>        
+                <a href="#">
+                    <i class="fa font-14 fa-file rounded-xl shadow-s bg-magenta-dark color-white"></i>
+                    <span>Pages</span>
+                    <strong>Gorgeous styles</strong>
+                    <i class="fa fa-angle-right"></i>
+                </a>        
+                <a href="#">
+                    <i class="fa font-14 fa-envelope rounded-xl shadow-s bg-brown-dark color-white"></i>
+                    <span>Contact</span>
+                    <strong>Let's get in Touch</strong>
+                    <i class="fa fa-angle-right"></i>
+                </a>        
+            </div>
+        </div>
+        
+        <div class="content">
+            <h5 class="text-uppercase font-12 mb-0">Settings</h5>
+            <div class="list-group list-custom-large">
+                <a data-toggle-theme data-trigger-switch="toggle-dark12" class="border-0" href="#">
+                    <i class="fa font-14 fa-moon rounded-xl shadow-s bg-dark-dark color-white"></i>
+                    <span>Toggle Dark Mode</span>
+                    <strong>Enjoy it with Lights Off</strong>
+                    <div class="ms-auto me-4 pe-2">
+                        <div class="custom-control ios-switch scale-switch">
+                            <input data-toast="switched-color-scheme" data-toggle-theme type="checkbox" class="ios-input" id="toggle-dark12">
+                            <label class="custom-control-label" for="toggle-dark12"></label>
+                        </div>
+                    </div>
+                    <i class="fa fa-angle-right"></i>
+                </a>             
+            </div>
+        </div>
+        
+        <div class="content">
+            <h5 class="text-uppercase font-12 mb-0">Choose Color Accent</h5>
+            <p class="font-12">
+                Page highlights affect the color of certain elements to give your page it's own personality and color.
+            </p>
+            <div class="row text-center">
+                <a href="#" class="col-3" data-change-highlight="blue">
+                    <i class="fa fa-circle color-blue-dark font-27"></i>
+                    <span class="font-12 color-blue-dark d-block">Blue</span>
+                </a>
+                <a href="#" class="col-3" data-change-highlight="brown">
+                    <i class="fa fa-circle color-brown-dark font-27"></i>
+                    <span class="font-12 color-brown-dark d-block">Brown</span>
+                </a>
+                <a href="#" class="col-3" data-change-highlight="green">
+                    <i class="fa fa-circle color-green-dark font-27"></i>
+                    <span class="font-12 color-green-dark d-block">Green</span>
+                </a>
+                <a href="#" class="col-3" data-change-highlight="magenta">
+                    <i class="fa fa-circle color-magenta-dark font-27"></i>
+                    <span class="font-12 color-magenta-dark d-block">Magenta</span>
+                </a>
+                <div class="w-100 mt-3"></div>
+                <a href="#" class="col-3" data-change-highlight="orange">
+                    <i class="fa fa-circle color-orange-dark font-27"></i>
+                    <span class="font-12 color-orange-dark d-block">Orange</span>
+                </a>
+                <a href="#" class="col-3" data-change-highlight="red">
+                    <i class="fa fa-circle color-red-dark font-27"></i>
+                    <span class="font-12 color-red-dark d-block">Red</span>
+                </a>
+                <a href="#" class="col-3" data-change-highlight="teal">
+                    <i class="fa fa-circle color-teal-dark font-27"></i>
+                    <span class="font-12 color-teal-dark d-block">Teal</span>
+                </a>
+                <a href="#" class="col-3" data-change-highlight="yellow">
+                    <i class="fa fa-circle color-yellow-dark font-27"></i>
+                    <span class="font-12 color-yellow-dark d-block">Yellow</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="divider divider-margins"></div>
+
+        <div data-menu-load="menu-footer.html"></div>
+    </div>
+    <!-- Page content ends here-->
+    <div id="menu-main" class="menu menu-box-left rounded-0" data-menu-load="menu-main.html" data-menu-width="280" data-menu-active="nav-settings"></div>
+
+</div>
+
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</body>
